@@ -40,7 +40,7 @@ export default function Landingpage(){
                                             <h2>Login As Investor</h2>
                                         </div>
                                     </Link>
-                                    <Link to='/login'>
+                                    <Link to='/login-farmer'>
                                         <div className="goToLogin">
                                             <h2>Login As Farming Entity</h2>
                                         </div>

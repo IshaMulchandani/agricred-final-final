@@ -1,10 +1,10 @@
 import React from "react";
-import './Login.css'
+import './Loginfarmer.css'
 import { Link } from "react-router-dom";
 
-export default function Login(){
-    function investorDash(){
-        window.location.href='https://agri-cred-investor-hub-61.lovable.app/deals/INV-9482'
+export default function Loginfarmer(){
+    function farmerDashboard(){
+        window.location.href='https://farmer-dashboard-final.netlify.app/'
     }
     return(
         <div className="loginCont">
@@ -20,7 +20,7 @@ export default function Login(){
                     <br />
                     <input type="password" required/>
                 </div>
-                <button type="submit" onClick={investorDash()} className="submit-btn">Submit</button>  
+                <button type="submit" onClick={farmerDashboard()} className="submit-btn">Submit</button> 
             </form>
         </div>
     )

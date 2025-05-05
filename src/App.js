@@ -16,6 +16,7 @@ import Report from './Components/Report/Report';
 import Landingpage from './Components/Landing Page/Landingpage';
 import Login from './Components/Login/Login';
 import BusinessType from './Components/Business Type/BusinessType';
+import Loginfarmer from './Components/Login Farmer/Loginfarmer';
 // import Trader from './Components/Business Login Forms/Trader/Trader';
 
 function App() {
@@ -37,6 +38,7 @@ function App() {
         <Route path='/my-profile' element={<Myprofile/>} />
         <Route path='/report' element={<Report/>} />
         <Route path='/login' element={<Login/>} />
+        <Route path='/login-farmer' element={<Loginfarmer/>} />
         <Route path='/business-type' element={<BusinessType/>} />
         {/* <Route path='/trader-info' element={<Trader/>} /> */}
       </Routes>

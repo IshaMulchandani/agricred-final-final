@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 export default function BusinessType() {
     const traderForm = () => {  // Corrected function name
-        window.location.href = "https://mill-register-form.netlify.app/invoice-application";
+        window.location.href = "https://mill-register-form.netlify.app/";
     };
 
     return (
